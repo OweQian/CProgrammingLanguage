@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 // int main() {
 //     int n;
@@ -10,12 +10,12 @@
 // }
 
 // int main() {
-//     int t, sum;
-//     while(scanf("%d", &t) != EOF) {
+//     int n, sum;
+//     while(scanf("%d", &n) != EOF) {
 //         sum = 0;
-//         while (t--) {
-//           sum += t;
-//           --t;
+//         while (n--) {
+//           sum += n;
+//           --n;
 //         }
 //         printf("%d\n\n", sum);
 //     }
@@ -23,13 +23,13 @@
 // }
 
 // int main() {
-//     int t, sum;
-//     while (scanf("%d", &t) != EOF) {
-//         if (t % 2 == 0) {
-//             sum = t / 2 * (t + 1);
+//     int n, sum;
+//     while (scanf("%d", &n) != EOF) {
+//         if (n % 2 == 0) {
+//             sum = n / 2 * (n + 1);
 //             printf("%d\n\n", sum);
 //         } else {
-//             sum = (t + 1) / 2 * t;
+//             sum = (n + 1) / 2 * n;
 //             printf("%d\n\n", sum);
 //         }
 //     }
@@ -37,18 +37,18 @@
 // }
 
 // int main() {
-//     unsigned int t;
-//     while (scanf("%u", &t) != EOF) {
-//         unsigned int sum = t * (t + 1) / 2;
+//     unsigned int n;
+//     while (scanf("%u", &n) != EOF) {
+//         unsigned int sum = n * (n + 1) / 2;
 //         printf("%u\n\n", sum);
 //     }
 //     return 0;
 // }
 
 // int main() {
-//     long long t;
-//     while (scanf("%lld", &t) != EOF) {
-//         long long sum = t * (t + 1) / 2;
+//     long long n;
+//     while (scanf("%lld", &n) != EOF) {
+//         long long sum = n * (n + 1) / 2;
 //         printf("%lld\n\n", sum);
 //     }
 //     return 0;
