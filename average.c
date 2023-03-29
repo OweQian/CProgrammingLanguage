@@ -4,6 +4,7 @@ int main() {
     int n, a, i;
     double avg;
     while (scanf("%d", &n) != EOF) {
+        avg = 0; 
         for (i = 0; i < n; ++i) {
             scanf("%d", &a);
             avg += a;
