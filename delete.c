@@ -2,12 +2,6 @@
 int n;
 int a[10000001], x;
 
-void swap(int *a, int *b) {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
-
 int main() {
     int i, x;
     while (scanf("%d", &n) != EOF) {
