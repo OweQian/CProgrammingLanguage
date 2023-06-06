@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    while (scanf("%d", &a)) {
+    while (scanf("%d", &a) != EOF) {
         switch (a) {
             case 1:
                 printf("一");
